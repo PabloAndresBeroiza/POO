@@ -22,6 +22,12 @@ public class principal {
         System.out.println("elevadorChico peso: " + elevadorChico.pesoMaximo + "Capacidad Maxima de personas: " + elevadorChico.capacidadMaxPersona);
         
         System.out.println("elevadorChico peso: " + elevadorGrande.pesoMaximo + "Capacidad Maxima de personas: " + elevadorGrande.capacidadMaxPersona);
+    
+        System.out.println("Soy elevadorChico");
+        elevadorChico.abrirPuertas();
+        elevadorChico.cerrarPuertas();
+        int piso = elevadorChico.subirPiso(6);
+        System.out.println("Subiendo al piso: " + piso);
     }
     
 }
