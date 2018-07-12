@@ -15,7 +15,7 @@ public class principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+        /*
         Elevador elevadorChico = new Elevador(400, 5);
         elevadorChico.setPesoMaximo(300);
         Elevador elevadorGrande = new Elevador(800, 7);
@@ -37,6 +37,19 @@ public class principal {
         System.out.println("subiendo al piso: " + pisoAuto);
         elevadorAuto.cargarGasolina();
         elevadorAuto.abrirPuertas();
+        */
+        
+        Animal animal = new Animal();        
+        animal.desplazarse();
+        
+        Ave ave = new Ave();
+        ave.desplazarse();
+        
+        Pez pez = new Pez();
+        pez.desplazarse();
+        
+        MamiferoTerrestre mt = new MamiferoTerrestre();
+        mt.desplazarse();
     }
     
 }
