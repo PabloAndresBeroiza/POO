@@ -60,7 +60,7 @@ public class principal {
         
         try {
             Ave cotorro;
-            cotorro.desplazarse();
+           // cotorro.desplazarse();
         } catch (Exception e) {
             System.out.println("Error: "+e);
         }

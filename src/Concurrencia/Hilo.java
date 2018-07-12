@@ -11,7 +11,7 @@ package Concurrencia;
  */
 public class Hilo implements Runnable{
     String nombre;
-    int dato;
+    int dato = 0;
     
     //Constructor
     public Hilo(String nombre) {
@@ -23,11 +23,11 @@ public class Hilo implements Runnable{
     @Override
     public void run() {
         
-        int x = 0;
+        
         do {            
-            System.out.println("Soy: " +nombre+" y soy un hilo y mi x es: " +x);
-            x++;
-        } while (x <= 10);
+            System.out.println("Soy: " +nombre+" y soy un hilo y mi dato es: " +dato);
+            dato++;
+        } while (dato <= 20);
     }
     
 }
