@@ -13,11 +13,12 @@ public class Ejecutador {
     
     public static void main(String[] args) {
         Hilo h1 = new Hilo("Hilo 1");
+        Hilo h2 = new Hilo("Hilo 2");
         
         
         //Se crean los hilos
         Thread t1 =  new Thread(h1);
-        Thread t2 =  new Thread(h1);
+        Thread t2 =  new Thread(h2);
         
         //Se ejecutan los hilos
         t1.start();
