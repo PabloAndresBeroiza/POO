@@ -15,6 +15,13 @@ public class principal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        Elevador elevadorChico = new Elevador(400, 5);
+        Elevador elevadorGrande = new Elevador(800, 7);
+        
+        System.out.println("elevadorChico peso: " + elevadorChico.pesoMaximo + "Capacidad Maxima de personas: " + elevadorChico.capacidadMaxPersona);
+        
+        System.out.println("elevadorChico peso: " + elevadorGrande.pesoMaximo + "Capacidad Maxima de personas: " + elevadorGrande.capacidadMaxPersona);
     }
     
 }

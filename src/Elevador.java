@@ -9,12 +9,14 @@
  * @author pablo
  */
 public class Elevador {
-
-    public Elevador() {
-        
-    }
     public int pesoMaximo;
     public int capacidadMaxPersona;
+
+    public Elevador(int pesoMaximo, int capacidadMaxPersona) {
+        this.pesoMaximo = pesoMaximo;
+        this.capacidadMaxPersona = capacidadMaxPersona;
+    } 
+    
     
     
     public int subirPiso(int pisoActual){
