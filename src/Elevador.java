@@ -9,8 +9,8 @@
  * @author pablo
  */
 public class Elevador {
-    public int pesoMaximo;
-    public int capacidadMaxPersona;
+    private  int pesoMaximo;
+    private  int capacidadMaxPersona;
 
     public Elevador(int pesoMaximo, int capacidadMaxPersona) {
         this.pesoMaximo = pesoMaximo;
@@ -36,4 +36,22 @@ public class Elevador {
     public void cerrarPuertas(){
         System.out.println("Cerrando puertas...");
     }
+
+    public int getPesoMaximo() {
+        return pesoMaximo;
+    }
+
+    public void setPesoMaximo(int pesoMaximo) {
+        this.pesoMaximo = pesoMaximo;
+    }
+
+    public int getCapacidadMaxPersona() {
+        return capacidadMaxPersona;
+    }
+
+    public void setCapacidadMaxPersona(int capacidadMaxPersona) {
+        this.capacidadMaxPersona = capacidadMaxPersona;
+    }
+    
+    
 }

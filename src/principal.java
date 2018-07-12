@@ -19,9 +19,9 @@ public class principal {
         Elevador elevadorChico = new Elevador(400, 5);
         Elevador elevadorGrande = new Elevador(800, 7);
         
-        System.out.println("elevadorChico peso: " + elevadorChico.pesoMaximo + "Capacidad Maxima de personas: " + elevadorChico.capacidadMaxPersona);
+        System.out.println("elevadorChico peso: " + elevadorChico.getPesoMaximo() + "Capacidad Maxima de personas: " + elevadorChico.getCapacidadMaxPersona());
         
-        System.out.println("elevadorChico peso: " + elevadorGrande.pesoMaximo + "Capacidad Maxima de personas: " + elevadorGrande.capacidadMaxPersona);
+        System.out.println("elevadorChico peso: " + elevadorGrande.getPesoMaximo() + "Capacidad Maxima de personas: " + elevadorGrande.getCapacidadMaxPersona());
     
         System.out.println("Soy elevadorChico");
         elevadorChico.abrirPuertas();
