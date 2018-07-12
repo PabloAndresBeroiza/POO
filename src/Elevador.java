@@ -9,6 +9,10 @@
  * @author pablo
  */
 public class Elevador {
+
+    public Elevador() {
+        
+    }
     public int pesoMaximo;
     public int capacidadMaxPersona;
     
