@@ -55,6 +55,8 @@ public class principal {
         DesplazarAnimal(pez);
         DesplazarAnimal(mt);
         DesplazarAnimal(ave);
+        mt.masticar();
+        mt.cazar("dientes");
     }
     
     public static void DesplazarAnimal(Animal a){
