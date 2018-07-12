@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package Abstracto;
 
 /**
  *
  * @author pablo
  */
-public abstract class Animal {
-    private int peso;
-    private int altura;
-    private String nombre;
+public abstract class MiClaseAbtracta {
     
+    public void metodoNormal(){
+        System.out.println("Metodo normal");
+    }
     
-    public abstract void desplazarse();
+    public abstract void metodoAbstracto();
 }

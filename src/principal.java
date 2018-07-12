@@ -39,7 +39,7 @@ public class principal {
         elevadorAuto.abrirPuertas();
         */
         
-        Animal animal = new Animal();        
+        //Animal animal = new Animal();        
         
         
         Ave ave = new Ave();
@@ -51,9 +51,10 @@ public class principal {
         MamiferoTerrestre mt = new MamiferoTerrestre();
         
         
-        DesplazarAnimal(animal);
+        //DesplazarAnimal(animal);
         DesplazarAnimal(pez);
         DesplazarAnimal(mt);
+        DesplazarAnimal(ave);
     }
     
     public static void DesplazarAnimal(Animal a){

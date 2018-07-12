@@ -3,16 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package Abstracto;
 
 /**
  *
  * @author pablo
  */
-public abstract class Animal {
-    private int peso;
-    private int altura;
-    private String nombre;
+public abstract class Hijo extends MiClaseAbtracta{
     
     
-    public abstract void desplazarse();
+    @Override
+    public abstract void metodoAbstracto();
 }
