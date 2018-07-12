@@ -30,6 +30,13 @@ public class principal {
         elevadorChico.cerrarPuertas();
         int piso = elevadorChico.subirPiso(6);
         System.out.println("Subiendo al piso: " + piso);
+        
+        System.out.println("Soy ElevadorAutos");
+        ElevadorAuto elevadorAuto = new ElevadorAuto(400, 5, 2);
+        int pisoAuto = elevadorAuto.subirPiso(2);
+        System.out.println("subiendo al piso: " + pisoAuto);
+        elevadorAuto.cargarGasolina();
+        elevadorAuto.abrirPuertas();
     }
     
 }
