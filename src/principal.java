@@ -57,6 +57,13 @@ public class principal {
         DesplazarAnimal(ave);
         mt.masticar();
         mt.cazar("dientes");
+        
+        try {
+            Ave cotorro;
+            cotorro.desplazarse();
+        } catch (Exception e) {
+            System.out.println("Error: "+e);
+        }
     }
     
     public static void DesplazarAnimal(Animal a){
