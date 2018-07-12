@@ -40,16 +40,23 @@ public class principal {
         */
         
         Animal animal = new Animal();        
-        animal.desplazarse();
+        
         
         Ave ave = new Ave();
-        ave.desplazarse();
+        
         
         Pez pez = new Pez();
-        pez.desplazarse();
+        
         
         MamiferoTerrestre mt = new MamiferoTerrestre();
-        mt.desplazarse();
+        
+        
+        DesplazarAnimal(animal);
+        DesplazarAnimal(pez);
+        DesplazarAnimal(mt);
     }
     
+    public static void DesplazarAnimal(Animal a){
+        a.desplazarse();
+    }
 }
